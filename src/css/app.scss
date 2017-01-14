@@ -1,3 +1,19 @@
 body {
     font-family: monospace;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+section {
+    padding: 10px;
+    margin: 10px;
+}
+div {
+    padding-left: 50px;
+}
+
+.trainingday {
+    margin-top: 40px;
+    
+    border-left: 2px solid black;
 }

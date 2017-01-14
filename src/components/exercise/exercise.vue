@@ -7,7 +7,7 @@
         :checked="exercise.done"
         @change="toggleTodo({ todo: todo })">-->
       <label v-text="exercise.text" @dblclick="editing = true"></label> 
-      <button class="destroy" @click="deleteExercise({ exercise: exercise })">Slett</button>
+      <button class="destroy" @click="deleteExercise({ exercise: exercise })">Delete</button>
     </div>
     <input class="edit"
       v-show="editing"
